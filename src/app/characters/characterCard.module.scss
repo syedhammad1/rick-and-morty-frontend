@@ -1,0 +1,31 @@
+.characterCardImage {
+    border-radius: 20px;
+}
+
+.characterDetail {
+    display: flex;
+    align-items: center;
+
+    .dead {
+        background-color: #B90000;
+
+    }
+
+    .alive {
+        background-color: #98CD4D;
+
+    }
+
+    .unknown {
+        background-color: #B8B8B8;
+    }
+
+}
+
+.characterCircle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: red;
+}

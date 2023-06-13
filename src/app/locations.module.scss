@@ -1,0 +1,47 @@
+.locationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.locationItemContainer {
+    background-color: var(--light-yellow) !important;
+    margin: 20px;
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+
+    h1 {
+        margin-left: 20px;
+        font-weight: 500;
+        margin-top: 5%;
+    }
+
+}
+
+
+
+.flextest {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        width: 50%;
+        margin-left: 20px;
+        font-weight: 400;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .locationItemContainer {
+        width: 100%;
+
+        h2 {
+            font-size: 12px;
+        }
+    }
+
+}

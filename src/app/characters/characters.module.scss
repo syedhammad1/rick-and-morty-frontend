@@ -1,0 +1,18 @@
+.filterContainer {
+    display: flex;
+    gap: 20px;
+
+}
+
+.filterC {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.characterCard {
+    display: flex;
+    gap: 20px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}

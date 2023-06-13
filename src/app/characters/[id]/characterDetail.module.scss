@@ -1,0 +1,37 @@
+.otherChars {
+    display: flex;
+    gap: 3%;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-wrap: nowrap;
+}
+
+.characterCardDetailImage {
+    border-radius: 20px;
+}
+
+.otherCharDetailInfo {
+    display: flex;
+    gap: 20px;
+}
+
+.charCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.extraCharacters {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .otherChars {
+        flex-wrap: wrap;
+        /* Items will wrap on screens smaller than 768px */
+    }
+}
